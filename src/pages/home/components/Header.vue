@@ -51,4 +51,5 @@ export default {
             margin-top: .12rem
             margin-bottom : .12rem
             
+            
 </style>>

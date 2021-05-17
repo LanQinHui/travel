@@ -1,24 +1,21 @@
+/* eslint-disable prettier/prettier */
 <template lang="pug">
     <div>
         <home-header></home-header>
         <home-swiper></home-swiper>
         <div>text</div>
     </div>
-    
 </template>
-
 <script>
 import HomeHeader from "./components/Header";
 import HomeSwiper from "./components/Swiper";
 export default {
   name: "Home",
   components: {
-      HomeHeader,
-      // eslint-disable-next-line prettier/prettier
-      HomeSwiper
+    HomeHeader,
+    HomeSwiper,
   },
 };
 </script>
 
-<style>
-</style>
+<style></style>
