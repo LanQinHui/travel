@@ -9,10 +9,13 @@ import "styles/reset.css";
 import "styles/border.css";
 import "styles/iconfont.css";
 import 'swiper/swiper-bundle.css';
+import 'assets/iconfont/iconfont.js';
+import IconSvg from './pages/home/components/IconSvg';
 
 Vue.config.productionTip = false;
-fastClick.attach(document.body)
-Vue.use(VueAwesomeSwiper)
+fastClick.attach(document.body);
+Vue.component('icon-svg', IconSvg)
+Vue.use(VueAwesomeSwiper);
 
 
 new Vue({
